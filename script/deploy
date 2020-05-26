@@ -1,0 +1,8 @@
+#!/bin/sh
+ssh hungle@18.141.176.79 <<EOF
+    cd ~/demo-ci-cd
+    git pull
+    npm install
+    pm2 restart all
+    exit
+EOF
