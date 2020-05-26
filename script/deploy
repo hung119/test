@@ -3,5 +3,4 @@ cd ~/demo-ci-cd
 git pull
 npm install
 pm2 restart all
-
 exit
