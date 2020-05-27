@@ -2,5 +2,6 @@
 ssh hungle@18.141.176.79 << EOF
 cd test/
 git pull
+pm2 restart all
 exit
 EOF
