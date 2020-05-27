@@ -2,8 +2,7 @@
 ssh hungle@18.141.176.79 << EOF
 cd test/
 git pull
-node -v
-npm -v
+echo $PATH
 pwd
 exit
 EOF
