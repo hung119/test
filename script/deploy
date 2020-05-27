@@ -3,7 +3,7 @@ ssh hungle@18.141.176.79 << EOF
 cd ~/test/
 git pull
 echo $PATH
-ll /home/hungle/test
+hostnamectl
 pwd
 exit
 EOF
