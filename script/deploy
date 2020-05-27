@@ -1,6 +1,5 @@
 #!/bin/bash
 ssh hungle@18.141.176.79 << EOF
-cd test/
-git pull
+pwd
 exit
 EOF
