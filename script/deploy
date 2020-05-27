@@ -1,8 +1,9 @@
 #!/bin/bash
 ssh hungle@18.141.176.79 << EOF
-cd test/
+cd ~/test/
 git pull
 echo $PATH
+ll /home/hungle/test
 pwd
 exit
 EOF
