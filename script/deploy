@@ -1,8 +1,6 @@
-#!/bin/sh
-cd ~/test
+#!/bin/bash
+ssh hungle@18.141.176.79 << EOF
+cd test/
 git pull
-npm install
-pm2 restart all
-
-
 exit
+EOF
