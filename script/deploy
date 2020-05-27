@@ -2,7 +2,8 @@
 ssh hungle@18.141.176.79 << EOF
 cd ~/test/
 git pull
-/home/hungle/.nvm/versions/node/v8.16.0/bin/pm2 restart
+npm i
+/home/hungle/.nvm/versions/node/v8.16.0/bin/pm2 restart all
 pwd
 exit
 EOF
